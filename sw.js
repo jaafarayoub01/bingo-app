@@ -1,4 +1,4 @@
-const cacheName = 'bingo-v1';
+const cacheName = 'bingo-v2';
 const assets = [
   './',
   './index.html',
