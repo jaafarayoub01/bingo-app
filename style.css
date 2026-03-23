@@ -1,0 +1,56 @@
+        body{
+    background-color: lightgray;
+
+    display: grid;
+    justify-content: center;
+    font-size: 1rem;
+}
+table{
+    border-collapse: collapse;
+    
+}
+table, th, td{
+    border: 3px solid black;
+    padding: 0;
+    text-align: center;
+    
+}
+td{
+    height: 75px;
+    width: 75px;
+}
+.bot1 {
+    width: 100%;
+    height: 100%;
+    display: block;
+    cursor: pointer;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+#ready2{
+    background-color: rgb(222, 109, 122);
+}
+.controls-container {
+    text-align: center;
+    margin-top: 30px; /* مسافة أمان عن الجدول */
+    padding-bottom: 20px;
+}
+
+#resetBtn {
+    background-color: #333;
+    color: #ff4d4d; /* لون أحمر خفيف ليدل على "مسح/إعادة" */
+    border: 2px solid #444;
+    padding: 15px 40px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 50px; /* شكل بيضاوي عصري */
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+    transition: all 0.2s;
+}
+
+#resetBtn:active {
+    transform: scale(0.9); /* تأثير ضغطة حقيقي */
+    background-color: #111;
+}
